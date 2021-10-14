@@ -6,8 +6,8 @@ print("4: Division")
 
 choice = input("Enter your chocie here : ")
 
-num1 = float(input())
-num2 = float(input())
+num1 = float(input("Input Value: "))
+num2 = float(input("Input Value: "))
 
 if choice == "1":
     print( num1, "+", num2, "=", (num1+num2))
